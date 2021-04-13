@@ -101,7 +101,7 @@
                               <div class="card-header-form">
                                  <form>
                                     <div class="input-group">
-                                       <input type="text" class="form-control" placeholder="Search">
+                                       <input type="text" class="form-control" placeholder="Search" id='txt_searchall'>
                                        <div class="input-group-btn">
                                           <button class="btn btn-primary"><i class="fas fa-search"></i></button>
                                        </div>
