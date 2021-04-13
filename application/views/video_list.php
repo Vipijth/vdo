@@ -161,7 +161,7 @@
                                            <i class="text-danger" onclick="return confirm('Do You Want Delete This Video?'),document.getElementById('<?php echo $row->id ?>').submit();" data-feather="trash-2" data-toggle="tooltip" data-original-title="Delete Video"></i>
                                   
                                           
-                                           <a href="<?php base_url(); ?>uploads/<?php echo $row->video;?>">
+                                           <a href="<?php base_url(); ?>uploads/<?php echo $row->video;?>" target="_blank">
 										   <i style="color: #243fe4" data-feather="download-cloud" data-toggle="tooltip" data-original-title="Download Video" ></i>
                                            </a>
                                         </td>	  </form>
